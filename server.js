@@ -11,7 +11,7 @@ const io = new Server(server);
 // Environment
 // ----------------------------------------------------------------------------
 const port = process.env.PORT || 8000;
-const MONGODB_URL = process.env.MONGODB_URL;
+const MONGODB_URL = "mongodb+srv://Yuonore:<password>@cluster0.p2vtl.mongodb.net/?retryWrites=true&w=majority";
 
 // ----------------------------------------------------------------------------
 // Data
